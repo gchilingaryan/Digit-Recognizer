@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.10.0"></script>
+  <script src="digit_recognizer.js"></script>
+  <style>
+    button {
+      font-size: 24pt;
+      margin: 8px;
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <button id="guess", onclick="guessPressed()">Guess</button>
+  <button id="erase", onclick="erasePressed()">Erase</button>
+</body>
+</html>
